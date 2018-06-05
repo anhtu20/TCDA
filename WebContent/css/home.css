@@ -1,0 +1,31 @@
+#account {
+    position: absolute;
+    top: 15px;
+    -webkit-transition: opacity 130ms;
+    width: 100%;
+    float: right;
+}
+
+#img {
+    float: right;
+    padding: 0 25px 0 0;
+}
+
+.account-info {
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    background-image: url(https://lh3.googleusercontent.com/-xsTORJFgMx4/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq08elIGg0MVb0d-3rOc37LTbWIzCA/s32-c-mo/photo.jpg);
+}
+
+.banner {
+	text-align: center;
+}
